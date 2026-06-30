@@ -1,13 +1,13 @@
-
 import { AppsData, DocumentationData, Esfuerzo, ItineraryItem, MoneyData, MoodItemData, ServicesSummary, Tab, Temperatura } from "@/types/types";
 
 export const heroImage = "/images.jpg";
 
-export const tripName = "Cabo Verde · Isla de la Sal"
+export const tripName = "Sri Lanka & Maldivas · Summer"
+export const tripSurname = "Naturaleza, cultura y paraíso 🏝️"
 
 export const mapImage = "/itinerario-colombo-sri-lanka-maafushi-maldivas.webp"
 
-export const tripDates = "18 - 25 Julio 2026";
+export const tripDates = "19 - 30 Agosto 2026";
 
 export const tabs: Tab[] = [
   { id: "inicio", label: "Inicio", icon: "🏠" },
@@ -18,221 +18,232 @@ export const tabs: Tab[] = [
 ];
 
 export const moods: MoodItemData[] = [
-    {
-      icon: "🌴",
-      title: "Relax",
-      desc: "Playas paradisíacas y atardeceres infinitos.",
-    },
-    {
-      icon: "🤙",
-      title: "Buen Rollo",
-      desc: "Grupo pequeño y ambiente familiar.",
-    },
-    {
-      icon: "🌊",
-      title: "Aventura Suave",
-      desc: "Excursiones accesibles para todos.",
-    },
-  ];
+  {
+    icon: "🐘",
+    title: "Naturaleza Salvaje",
+    desc: "Safaris en Yala, trenes entre montañas y playas infinitas.",
+  },
+  {
+    icon: "🛕",
+    title: "Cultura Milenaria",
+    desc: "Templos budistas, la roca de Sigiriya y ciudades antiguas.",
+  },
+  {
+    icon: "🏝️",
+    title: "Paraíso Maldivo",
+    desc: "Aguas turquesas, bancos de arena y snorkel con tortugas.",
+  },
+];
 
 export const esfuerzo: Esfuerzo = {
-      porcentaje: "40%",
-      title: "BAJO - MEDIO",
-      text: "Itinerario relajado 360°. Ritmo tranquilo para disfrutar de la isla sin prisas, con excursiones suaves y mucho tiempo de playa. ¡La combinación perfecta!"
-    }
-
+  porcentaje: "60%",
+  title: "MEDIO",
+  text: "Itinerario dinámico con varios traslados en vehículo privado y el famoso tren entre montañas. Ritmo activo pero con tiempo para disfrutar cada destino. ¡Prepárate para vivir dos países en uno!"
+}
 
 export const itineraryData: ItineraryItem[] = [
-{
-day: "Sábado 18",
-title: "¡Bienvenidos a Sal!",
-desc: "Llegada al aeropuerto de Sal y traslado al hotel en Santa Maria. Tiempo para instalarse, conocer el entorno y comenzar la aventura en Cabo Verde.",
-where: "Santa Maria",
-included: "Alojamiento. ",
-moneypot: "—",
-},
-{
-day: "Domingo 19",
-title: "Vuelta completa a la isla",
-desc: "Excursión de día completo para descubrir los principales atractivos de Sal con transporte incluido. Almuerzo durante la actividad y regreso a Santa Maria para disfrutar de la tarde.",
-where: "Isla de Sal",
-included: "Excursión, desayuno y almuerzo. Alojamiento. ",
-moneypot: "—",
-},
-{
-day: "Lunes 20",
-title: "Aventura en Quad por Sal",
-desc: "Ruta en quad por la isla con parada en algunos de sus paisajes más emblemáticos, incluyendo la zona de Buracona. Posibilidad de avistamiento de tortugas poniendo nido.",
-where: "Buracona",
-included: "Desayuno. Alojamiento. ",
-moneypot: "Excursión en Quad, Anidación de tortugas",
-},
-{
-day: "Martes 21",
-title: "Snorkel y cultura local",
-desc: "Excursión de esnórquel para descubrir la vida marina de Sal. Más tarde, clase de baile tradicional.",
-where: "Santa Maria",
-included: "Excursión de esnórquel, Alojamiento. ",
-moneypot: "Clase de baile tradicional",
-},
-{
-day: "Miércoles 22",
-title: "Catamarán y cena con espectáculo",
-desc: "Excursión de medio día en catamarán con bebidas y snacks. Por la noche, cena tradicional con show.",
-where: "Santa Maria",
-included: "Desayuno, excursión en catamarán, bebidas y snacks. Alojamiento. ",
-moneypot: "Cena tradicional con show",
-},
-{
-day: "Jueves 23",
-title: "Deportes acuáticos y sabores locales",
-desc: "Jornada de surf o windsurf y cata de cervezas locales.",
-where: "Santa Maria",
-included: "Desayuno y cata de cervezas. Alojamiento. ",
-moneypot: "Surf / Windsurf",
-},
-{
-day: "Viernes 24",
-title: "Relax y despedida de Sal",
-desc: "Día libre para disfrutar de la playa, relajarse o realizar las últimas compras.",
-where: "Santa Maria",
-included: "Desayuno. Alojamiento. ",
-moneypot: "Actividades opcionales",
-},
-{
-day: "Sábado 25",
-title: "Hasta la próxima aventura",
-desc: "Desayuno y traslado al aeropuerto para el vuelo de regreso.",
-where: "Santa Maria ",
-included: "Desayuno",
-moneypot: "—",
-},
+  {
+    day: "Sábado 18",
+    title: "¡Bienvenidos a Sri Lanka!",
+    desc: "Llegada al aeropuerto de Colombo y traslado al alojamiento. Tiempo para instalarse, conocer al grupo y comenzar la aventura en la isla.",
+    where: "Colombo",
+    included: "Alojamiento.",
+    moneypot: "—",
+  },
+  {
+    day: "Domingo 19",
+    title: "Colombo y rumbo a Kandy",
+    desc: "Recorrido por los puntos clave de Colombo y salida hacia Kandy. Visita al Templo del Diente de Buda, uno de los lugares más sagrados del budismo.",
+    where: "Colombo - Kandy",
+    included: "Desayuno y alojamiento.",
+    moneypot: "Entrada Templo del Diente",
+  },
+  {
+    day: "Lunes 20",
+    title: "La roca de Sigiriya",
+    desc: "Ascenso a la famosa Roca de Sigiriya, declarada Patrimonio de la Humanidad. Parada en Dambulla para visitar sus templos rupestres.",
+    where: "Kandy - Sigiriya",
+    included: "Desayuno y alojamiento.",
+    moneypot: "Entrada Sigiriya, Templos de Dambulla",
+  },
+  {
+    day: "Martes 21",
+    title: "El tren más bonito del mundo",
+    desc: "Viaje en tren entre montañas hasta Ella, considerado uno de los trayectos más espectaculares del mundo. Tarde libre para explorar el pueblo.",
+    where: "Sigiriya - Ella",
+    included: "Desayuno, billete de tren y alojamiento.",
+    moneypot: "—",
+  },
+  {
+    day: "Miércoles 22",
+    title: "Ella: Little Adam's Peak y Nine Arches",
+    desc: "Ruta de senderismo suave hasta el Little Adam's Peak con vistas increíbles. Visita al famoso puente de los Nueve Arcos.",
+    where: "Ella",
+    included: "Desayuno y alojamiento.",
+    moneypot: "—",
+  },
+  {
+    day: "Jueves 23",
+    title: "Safari en el Parque Nacional Yala",
+    desc: "Safari en jeep por el Parque Nacional Yala, famoso por su alta densidad de leopardos. También podremos ver elefantes, cocodrilos y muchas aves.",
+    where: "Ella - Yala",
+    included: "Desayuno, safari en jeep y alojamiento.",
+    moneypot: "—",
+  },
+  {
+    day: "Viernes 24",
+    title: "Costa sur y rumbo a Maldivas",
+    desc: "Mañana libre en la costa sur para disfrutar de la playa o hacer avistamiento de ballenas. Por la tarde, traslado al aeropuerto y vuelo a Malé.",
+    where: "Yala - Mirissa - Malé",
+    included: "Desayuno, vuelo a Malé y traslado a Maafushi. Alojamiento.",
+    moneypot: "Avistamiento ballenas (opcional)",
+  },
+  {
+    day: "Sábado 25",
+    title: "Maafushi: banco de arena y snorkel",
+    desc: "Excursión en barco para disfrutar de un banco de arena en medio del océano y sesión de snorkel para ver tortugas, rayas y tiburones de arrecife.",
+    where: "Maafushi",
+    included: "Desayuno, excursión en barco y alojamiento.",
+    moneypot: "—",
+  },
+  {
+    day: "Domingo 26",
+    title: "Día libre en el paraíso",
+    desc: "Día libre para disfrutar de la isla, hacer snorkel por tu cuenta, relajarte en la playa o contratar alguna excursión opcional.",
+    where: "Maafushi",
+    included: "Desayuno y alojamiento.",
+    moneypot: "Actividades opcionales",
+  },
+  {
+    day: "Lunes 27",
+    title: "Hasta la próxima aventura",
+    desc: "Desayuno y traslado al aeropuerto de Malé para el vuelo de regreso.",
+    where: "Malé",
+    included: "Desayuno y traslado al aeropuerto.",
+    moneypot: "—",
+  },
 ];
 
 export const servicesSummary: ServicesSummary = {
   included: [
-    { title: "7 noches de hotel en Santa Maria" },
+    { title: "Alojamiento en Sri Lanka y Maldivas (Maafushi)" },
     { title: "Todos los desayunos" },
-    { title: "Excursión de día completo por la isla con transporte y almuerzo" },
-    { title: "Excursión de esnórquel con equipo incluido" },
-    { title: "Excursión en catamarán con barra libre de bebidas y snacks" },
-    { title: "Cata de cervezas locales" },
+    { title: "Transporte interno en vehículo privado con aire acondicionado" },
+    { title: "Billete de tren entre montañas (Sigiriya - Ella)" },
+    { title: "Safari en jeep por el Parque Nacional Yala" },
+    { title: "Excursión en barco con banco de arena y snorkel en Maldivas" },
+    { title: "Vuelo interno Colombo - Malé (según disponibilidad)" },
+    { title: "Traslados aeropuerto - alojamiento - aeropuerto" },
     { title: "Seguro de viaje" },
+    { title: "Coordinador WeRoad durante todo el viaje" },
   ],
 
   moneypot: [
     {
-      title: "Ruta en Quad por la isla",
-      price: "50€",
-      duration: "2h",
+      title: "Entrada al Templo del Diente de Buda",
+      price: "10€",
     },
     {
-      title: "Anidación de tortugas",
-      price: "30€ ",
+      title: "Entrada a la Roca de Sigiriya",
+      price: "30€",
     },
     {
-      title: "Clase de baile tradicional",
-      price: "15€ ",
-      duration: "1:30h",
+      title: "Templos rupestres de Dambulla",
+      price: "10€",
     },
     {
-      title: "Cena tradicional con show",
-      price: "30€ ",
+      title: "Tasa turística Sri Lanka",
+      price: "25€",
     },
     {
-      title: "Clases de surf o windsurf",
-      price: "30€/35€",
-      duration: "1h",
-    }
-
+      title: "Cenas y comidas no incluidas",
+      price: "~150€",
+    },
   ],
 
   extras: [
     {
-      title: "Actividades opcionales adicionales",
-
+      title: "Avistamiento de ballenas en Mirissa (opcional)",
+    },
+    {
+      title: "Excursiones opcionales en Maldivas",
     },
     {
       title: "Actividades nocturnas",
-
     },
   ],
 
   notIncluded: [
     { title: "Vuelos internacionales" },
+    { title: "Visado de Sri Lanka (ETA online)" },
     { title: "Comidas y bebidas no especificadas" },
     { title: "Gastos personales y compras" },
   ],
 };
+
 export const documentationData: DocumentationData = {
   documentation: [
     {
       title: "Pasaporte",
-      desc: "En perfecto estado, con al menos 6 meses de vigencia residual. Siempre contigo.",
+      desc: "En perfecto estado, con al menos 6 meses de vigencia residual desde la fecha de entrada. Siempre contigo.",
     },
     {
-      title: "Visa",
-      desc: "No necesaria para ciudadanos españoles.",
+      title: "Visado Sri Lanka (ETA)",
+      desc: (
+        <>
+          Obligatorio tramitar online antes del viaje en{" "}
+          <a
+            href="https://eta.gov.lk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sky-600 font-semibold hover:text-sky-800 underline"
+          >
+            eta.gov.lk
+          </a>
+          . Coste aproximado de 50 USD. Se recomienda tramitarlo con al menos 1 semana de antelación.
+        </>
+      ),
     },
-{
-  title: "Carnet de Conducir",
-  desc: (
-    <>
-      <span className="text-red-500 font-bold">¡IMPORTANTE!</span>{" "}
-      Es obligatorio para la excursión en buggies, nos lo pedirán.
-      No es necesario el internacional.
-    </>
-  )
-},
-{
-  title: "Tasa aeroportuaria (31 €)",
-  desc: (
-    <>
-      Debe abonarse antes del viaje en{" "}
-      <a
-        href="https://www.ease.gov.cv"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sky-600 font-semibold hover:text-sky-800 underline"
-      >
-        www.ease.gov.cv
-      </a>
-      , preferiblemente con al menos 5 días de antelación.
-    </>
-  ),
-},  
-],
+    {
+      title: "Visado Maldivas",
+      desc: "No es necesario tramitarlo con antelación. Se obtiene gratuitamente a la llegada (30 días para ciudadanos españoles).",
+    },
+  ],
 };
-export const appsData: AppsData = {
-    sim:
 
-      "En Santa Maria hay una tienda donde podéis conseguir una SIM local por unos 10 € con 5 GB de datos, más 2 € por la tarjeta SIM. También existen opciones de eSIM online, pero suelen ser más caras y algunos viajeros han reportado un rendimiento irregular en comparación con las SIM locales.",
-    apps: [
-      {
-        name: "WhatsApp",
-        desc: "Comunicación del grupo.",
-      },
-      {
-        name: "Google Maps",
-        desc: "Orientación en destino.",
-      },
-    ],
+export const appsData: AppsData = {
+  sim:
+    "En el aeropuerto de Colombo podéis comprar una SIM local (Dialog o Mobitel) por unos 10-15€ con datos suficientes para el viaje. En Maldivas también hay cobertura en Maafushi con las SIM de Sri Lanka en roaming, aunque es recomendable confirmar con el operador local.",
+  apps: [
+    {
+      name: "WhatsApp",
+      desc: "Comunicación del grupo.",
+    },
+    {
+      name: "Google Maps",
+      desc: "Orientación en destino.",
+    },
+    {
+      name: "PickMe",
+      desc: "App tipo Uber para moverse por Colombo.",
+    },
+  ],
 }
 
-  export const moneyData: MoneyData = {
-  currency: "Escudo caboverdiano (CVE)  (1€ = 110 escudos)",
+export const moneyData: MoneyData = {
+  currency: "Rupia de Sri Lanka (LKR) · Rufiyaa de Maldivas (MVR) — En Maldivas se usa mucho el USD",
   recommendation: (
     <>
-    <p>Los euros son aceptados en muchos lugares, pero en restaurantes es mejor cambiarlo a la moneda local (especialmente en zonas poco turísticas). Los euros pueden aceptarse, pero normalmente con un tipo de cambio menos favorable (1 € = 100 escudos). La mayoría de los restaurantes aceptan pago con tarjeta, aunque algunos pueden aplicar una comisión del 5%. </p>
-    <p>Se prevee unos <span className="font-bold">300€</span> para los gastos del día a día (comidas y recuerdos). Para vuestros gastos os recomiendo usar la tarjeta Revolut, os la podéis sacar {" "}
-      <a
-        href="https://revolut.com/referral/?referral-code=rococf5mo!AUG2-25-AR&geo-redirect"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sky-600 font-semibold hover:text-sky-800 underline"
-      >
-         aquí  
-      </a> y os la mandan a casa. </p>
+      <p>En Sri Lanka los cajeros automáticos funcionan bien y las tarjetas se aceptan en la mayoría de establecimientos turísticos. En Maldivas, al ser una isla local, se paga principalmente en efectivo (USD o MVR). Es recomendable llevar dólares en efectivo para los gastos en Maldivas.</p>
+      <p>Se prevé unos <span className="font-bold">250-300€</span> para los gastos del día a día (comidas, bebidas, souvenirs y pequeños gastos). Para vuestros gastos os recomiendo usar la tarjeta Revolut, os la podéis sacar{" "}
+        <a
+          href="https://revolut.com/referral/?referral-code=rococf5mo!AUG2-25-AR&geo-redirect"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sky-600 font-semibold hover:text-sky-800 underline"
+        >
+          aquí
+        </a> y os la mandan a casa.</p>
     </>
   ),
   commonFund: {
@@ -240,45 +251,50 @@ export const appsData: AppsData = {
     intro: "Como ya sabéis tenemos un fondo común que se paga en efectivo al coordinador el primer día de la llegada, quien es el responsable de gestionarlo.",
     description: "Se usa para todos los gastos en los que participemos como grupo: entradas a los sitios de visita, transportes comunes, actividades extra y el fondo del coordinador. En caso de no usarse todo el fondo común, se repartirá la suma sobrante entre todos los participantes al final del viaje. Por otro lado, si se realizan más actividades de las previstas, se pedirá una suma mayor de fondo común.",
     documento: (
-    <>
-      Podéis consultar en este el fondo común con los ingresos y gastos actualizados en este{" "}
-      <a
-        href="https://docs.google.com/spreadsheets/d/1kgX2Q5pr05eD3MKLQHRoMS_NtP6HIJD4/edit?usp=sharing&ouid=114359442271263270458&rtpof=true&sd=true"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sky-600 font-semibold hover:text-sky-800 underline"
-      >
-        link 
-      </a>
-       .
-    </>
-  ), 
+      <>
+        Podéis consultar el fondo común con los ingresos y gastos actualizados en este{" "}
+        <a
+          href="https://docs.google.com/spreadsheets/d/1kgX2Q5pr05eD3MKLQHRoMS_NtP6HIJD4/edit?usp=sharing&ouid=114359442271263270458&rtpof=true&sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sky-600 font-semibold hover:text-sky-800 underline"
+        >
+          link
+        </a>
+        .
+      </>
+    ),
   },
 };
 
 export const temperatura: Temperatura = {
-    icono: "☀️",
-    grados: "Temperatura diurna: 27 °C – 30 °C",
-    text: "Clima cálido todo el año con brisa marina constante."
+  icono: "☀️",
+  grados: "Temperatura diurna: 28 °C – 32 °C",
+  text: "Clima tropical cálido todo el año. En Maldivas la temperatura del agua ronda los 28-30°C. Temporada seca en la costa sur de Sri Lanka."
 }
-export const checklist: string[] = [
-  "🎒 Mochila o maleta mediana (las habitaciones pueden tener poco espacio).",
-  "👕 Ropa de verano total, bañadores y ropa ligera. Aunque hace mucho viento y por las noches refresca, ropa larga para las noches. ",
-  "🧢 Gorra o sombrero y gafas de sol.",
-  "🧣 Un pañuelo o buff para cubrirte la cara y protegerte de la arena durante la excursión en buggy.",
-  "👕 Ropa que pueda ensuciarse para la actividad en buggy.",
-  "👟 Escarpines o zapatillas de agua para la excursión por la isla (hay que caminar sobre rocas en la zona donde se observan los tiburones). También pueden alquilarse allí por unos 3 €.",
-  "👟 Zapatillas cómodas y sandalias de playa.",
-  "🧴 Crema de sol +50 (¡el sol pega fuerte!).",
-  "🔌 Se utilizan enchufes de tipo europeo, los mismos que en España, no necesario adaptador.",
-];
-  export const meds: string[] = [
-    "Ibuprofeno",
-    "Paracetamol",
-    "Biodramina para el mareo",
-    "Fortasec",
-    "Suero Oral",
-    "Antihistamínicos",
-    "Tiritas",
-  ];
 
+export const checklist: string[] = [
+  "🎒 Mochila o maleta mediana (los traslados son frecuentes y hay que mover el equipaje a menudo).",
+  "👕 Ropa de verano total, bañadores y ropa muy ligera y transpirable.",
+  "👚 Ropa respetuosa para visitar templos: hombros y rodillas cubiertos (imprescindible).",
+  "🧢 Gorra o sombrero y gafas de sol.",
+  "👟 Zapatillas cómodas para caminar (Sigiriya, Little Adam's Peak) y chanclas para playa.",
+  "🩴 Escarpines o zapatillas de agua para el snorkel en Maldivas.",
+  "🧴 Crema de sol +50 (¡el sol tropical pega fuerte!) y after sun.",
+  "🦟 Repelente de mosquitos (imprescindible para Sri Lanka).",
+  "🔌 Se utilizan enchufes tipo británico (tipo G) en Sri Lanka. Necesario adaptador.",
+  "🩱 Bikini / bañador para las excursiones en barco en Maldivas.",
+  "🎒 Bolsa estanca o funda impermeable para el móvil en las excursiones de snorkel.",
+  "💊 Medicación personal y botiquín básico.",
+];
+
+export const meds: string[] = [
+  "Ibuprofeno",
+  "Paracetamol",
+  "Biodramina para el mareo (importante para el tren y los barcos)",
+  "Fortasec",
+  "Suero Oral",
+  "Antihistamínicos",
+  "Tiritas",
+  "Repelente de mosquitos con DEET",
+];

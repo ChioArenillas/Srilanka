@@ -1,4 +1,4 @@
-import { heroImage, tripDates, tripName } from "@/data/data";
+import { heroImage, tripDates, tripName, tripSurname } from "@/data/data";
 import { motion } from "framer-motion";
 
 
@@ -24,7 +24,7 @@ export default function Header() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-white/90"
           >
-            {tripDates} · Sol, playa y buen rollo en el Atlántico 🌊
+            {tripDates} · {tripSurname}
           </motion.p>
         </div>
       </header>
